@@ -1,0 +1,116 @@
+body {
+	background-color: #0C4591;
+	background-image: url(Midland1.png);
+	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	font-family: Verdana;
+	
+
+}
+
+.container {
+	margin-bottom: 100px;
+
+
+
+}
+
+.section-one {
+	color: #032045;
+	position: absolute;
+	top: 5%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	font-size: 25px;
+	display: flex;
+
+}
+
+.section-two {
+	color: #032045;
+	margin-top: -65px;
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+
+
+
+}
+
+.section-three {
+
+
+
+}
+
+.el2{
+	position: absolute;
+	top: 40%;
+  	left: 15%;
+  	border-radius: 10%;
+	background-image: url(Mark.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.el3{
+	position: absolute;
+	top: 40%;
+  	left: 40%;
+  	border-radius: 10%;
+	background-image: url(Cameron.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.el4{
+	position: absolute;
+	top: 40%;
+  	left: 65%;
+  	border-radius: 10%;
+	background-image: url(Jess.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: absolute;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.section-two {
+	color: #032045;
+	margin-top: -65px;
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+
+
+
+
+
+.section-four {
+	color: lightblue;
+	background-color: #0C4591;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	margin-top: 600px;
+	
+
+
+
+}
