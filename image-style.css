@@ -1,5 +1,5 @@
 body {
-	background-color: #0C4591;
+	background-color: #032045;
 	background-image: url(Midland1.png);
 	background-attachment: fixed;
  	background-repeat: no-repeat;
@@ -10,29 +10,23 @@ body {
 }
 
 .container {
-	margin-bottom: 100px;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 600px;
 
 
 }
 
 .section-one {
-	color: #032045;
-	position: absolute;
-	top: 5%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	font-size: 25px;
-	display: flex;
+	color: lightcyan;
+	font-size: 50px;
+	
 
 }
 
 .section-two {
-	color: #032045;
-	margin-top: -65px;
-	font-size: 100px;
-	display: flex;
-	justify-content: center;
+	color: lightcyan;
 
 
 
@@ -45,9 +39,6 @@ body {
 }
 
 .el2{
-	position: absolute;
-	top: 40%;
-  	left: 15%;
   	border-radius: 10%;
 	background-image: url(Mark.jpg);
 	background-repeat: no-repeat;
@@ -59,9 +50,6 @@ body {
 }
 
 .el3{
-	position: absolute;
-	top: 40%;
-  	left: 40%;
   	border-radius: 10%;
 	background-image: url(Cameron.jpg);
 	background-repeat: no-repeat;
@@ -73,9 +61,6 @@ body {
 }
 
 .el4{
-	position: absolute;
-	top: 40%;
-  	left: 65%;
   	border-radius: 10%;
 	background-image: url(Jess.jpg);
 	background-repeat: no-repeat;
@@ -88,11 +73,9 @@ body {
 }
 
 .section-two {
-	color: #032045;
+	color: lightcyan;
 	margin-top: -65px;
 	font-size: 100px;
-	display: flex;
-	justify-content: center;
 
 
 }
@@ -105,12 +88,8 @@ body {
 .section-four {
 	color: lightblue;
 	background-color: #0C4591;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 100px;
-	margin-top: 600px;
-	
-
+	margin-top: 100px;
+	margin-bottom: 75px;
 
 
 }
