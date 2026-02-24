@@ -3,7 +3,7 @@ body {
 	background-image: url(Midland1.png);
 	background-attachment: fixed;
  	background-repeat: no-repeat;
- 	background-size: cover;
+ 	background-size: 100%;
 	font-family: Verdana;
 	
 
@@ -87,9 +87,203 @@ body {
 
 .section-four {
 	color: lightblue;
-	background-color: #0C4591;
+	margin-bottom: 75px;
+	font-size: 20px;
+	margin: 100px;
+
+
+}
+
+
+@media screen and (max-width: 1310px) { 
+	.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1000px;
+
+
+}
+
+.el2{
+  	border-radius: 10%;
+	background-image: url(Mark.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 600px;
+	width: 500px;
+
+
+}
+
+.el3{
+  	border-radius: 10%;
+	background-image: url(Cameron.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 600px;
+	width: 500px;
+
+
+}
+
+.el4{
+  	border-radius: 10%;
+	background-image: url(Jess.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: absolute;
+	height: 600px;
+	width: 500px;
+
+
+}
+
+.section-four {
+	color: lightblue;
 	margin-top: 100px;
 	margin-bottom: 75px;
+	font-size: 15px;
+
+
+}
+
+}
+
+@media screen and (max-width: 750px) { 
+	.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 600px;
+
+
+}
+
+.el2{
+  	border-radius: 10%;
+	background-image: url(Mark.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.el3{
+  	border-radius: 10%;
+	background-image: url(Cameron.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.el4{
+  	border-radius: 10%;
+	background-image: url(Jess.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: absolute;
+	height: 400px;
+	width: 300px;
+
+
+}
+
+.section-one {
+	color: lightcyan;
+	font-size: 25px;
+	
+
+}
+
+.section-two {
+	color: lightcyan;
+	margin-top: -65px;
+	font-size: 50px;
+
+
+}
+
+.section-four {
+	color: lightblue;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	font-size: 10px;
+	margin: 50px;
+
+
+}
+
+
+}
+
+
+@media screen and (max-width: 470px) { 
+	.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 500px;
+
+
+}
+
+.el2{
+  	border-radius: 10%;
+	background-image: url(Mark.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 300px;
+	width: 200px;
+
+
+}
+
+.el3{
+  	border-radius: 10%;
+	background-image: url(Cameron.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 300px;
+	width: 200px;
+
+
+}
+
+.el4{
+  	border-radius: 10%;
+	background-image: url(Jess.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: absolute;
+	height: 300px;
+	width: 200px;
+
+
+}
+
+.section-one {
+	color: lightcyan;
+	font-size: 25px;
+	
+
+}
+
+.section-two {
+	color: lightcyan;
+	margin-top: -65px;
+	font-size: 50px;
+
+
+}
 
 
 }
